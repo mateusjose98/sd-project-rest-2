@@ -18,7 +18,7 @@ const Reserva = require('../util/Reserva');
 const Cliente = require('../util/Cliente');
 
 
-const porta = process.env.PORT || 3001;
+const porta = process.env.PORT || 80;
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true}));
 
